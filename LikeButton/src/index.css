@@ -1,0 +1,28 @@
+.container{
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(115, 113, 113);
+  width: 70px;
+  color: rgb(78, 76, 76);
+  height: 30px;
+  gap: 5px;
+  border-radius: 32px;
+  font-weight: bold;
+  padding: 2px 6px;
+  margin-bottom: 10px;
+}
+.container:hover{
+  border: 2px solid rgb(248, 42, 42);
+  color: rgb(246, 43, 43);
+  cursor: pointer;
+}
+.liked{
+  background-color: rgb(255, 29, 29);
+  border: 2px solid rgb(255, 29, 29);
+  color: white;
+}
+.liked:hover{
+  color:white
+}

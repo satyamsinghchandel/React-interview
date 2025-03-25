@@ -1,0 +1,27 @@
+.header{
+  font-family: sans-serif;
+  padding: 0 20px
+}
+
+
+.trending{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 20px;
+  padding: 20px 0px;
+}
+
+.product-card{
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;  
+}
+.product-card a{
+  text-decoration: none;
+  color: black;
+}
